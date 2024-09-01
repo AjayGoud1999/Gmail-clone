@@ -1,27 +1,44 @@
-# GmailClone
+# Gmail clone app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+This Gmail clone is a front-end application developed using TypeScript and Angular. It leverages NgRx for asynchronous state management and features SCSS for styling. The application includes core functionalities such as sending emails, deleting emails, managing email labels, and organizing messages into categories like Trash, Sent, and Drafts. The interface allows users to view detailed email descriptions and interact with their inbox effectively, simulating a real-world email experience without back-end integration
 
-## Development server
+## Technologies Used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- **TypeScript**: Provides type safety and modern JavaScript features.
+- **Angular**: Framework used for building the user interface.
+- **NgRx**: Manages asynchronous state for handling data flow.
+- **SCSS**: Used for styling the application with advanced CSS features.
 
-## Code scaffolding
+## Setup and Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Clone the Repository**
 
-## Build
+    ```
+    git clone https://github.com/your-username/gmail-clone.git
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Navigate to the Project Directory**
 
-## Running unit tests
+    ```
+    cd gmail-clone
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Install Dependencies**
 
-## Running end-to-end tests
+    ```
+    npm install
+    ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. **Run the Application**
 
-## Further help
+    ```
+    ng serve
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    The application will be available at `http://localhost:4200`.
+
+## Usage
+
+- Open the application in your browser to interact with the email features.
+- Use the navigation bar to access different email categories and actions.
+- Compose and manage emails using the provided UI elements.
