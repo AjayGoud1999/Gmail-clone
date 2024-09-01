@@ -1,4 +1,6 @@
 # Gmail clone app
+![image](https://github.com/user-attachments/assets/32f3c2a1-908a-423c-aba2-3454b37de05c)
+
 
 This Gmail clone is a front-end application developed using TypeScript and Angular. It leverages NgRx for asynchronous state management and features SCSS for styling. The application includes core functionalities such as sending emails, deleting emails, managing email labels, and organizing messages into categories like Trash, Sent, and Drafts. The interface allows users to view detailed email descriptions and interact with their inbox effectively, simulating a real-world email experience without back-end integration
 
